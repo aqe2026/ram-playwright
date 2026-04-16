@@ -125,9 +125,8 @@ export default function LearnHubPage() {
         </h2>
 
         <div className="space-y-6">
-          {topics.map((topic, idx) => {
+          {topics.map((topic) => {
             const isVisited = visited.includes(topic.path);
-            const isQuizDone = quizScores[topic.title];
             
             return (
               <Link

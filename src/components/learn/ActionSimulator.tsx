@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react';
-import CodeBlock from '../CodeBlock';
 
 // ---------------------------------------------------------
 // ActionSimulator — Live interaction recorder
